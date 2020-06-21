@@ -97,7 +97,7 @@ input[type="submit"] {
 
 @media only screen and (max-width: 600px) {
 .chatbox{
-Width: 90%;
-height: 100%;
+Width: 100%;
+height: auto;
 }
 }
