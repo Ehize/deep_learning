@@ -92,3 +92,12 @@ input[type="submit"] {
   text-align: left;
   display: block;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+.chatbox{
+Width: 90%;
+height: 100%;
+}
+}
