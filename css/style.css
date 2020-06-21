@@ -18,7 +18,7 @@ body {
 }
 
 .chatbox {
-  width: 130px;
+  width: 400px;
   height: 475px;
   position: absolute;
   top: 0;
@@ -37,7 +37,7 @@ body {
 }
 
 .body {
-  background: rgb(10, 12, 12);
+  background: yellow;
   height: 100%;
   width: 100%;
   overflow-y: auto;
