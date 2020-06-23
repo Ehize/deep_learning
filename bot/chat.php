@@ -2,7 +2,8 @@
 include "Bot.php";
 $bot = new Bot;
 $questions = [
-    "how old are you || how old are you?" => "I am less than 4 Hours Old",
+    "how old are you?" => "I am less than 4 Hours Old",
+    "how old are you" => "I am less than 4 Hours Old",
     "what is your name" => "My name is " . $bot->getName(),
     "where are you from" => "I am from " . $bot->getPlace()
 ];
