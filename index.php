@@ -14,11 +14,12 @@
                 <h4>ChatBot</h4>
             </div>
             <div class="body" id="chatbody">
+                <p>Type Hello</p>
                 <div class="scroller"></div>
             </div>
             <form class="chat" method="post" autocomplete="off">
                 <div>
-                    <input type="text" name="chat" id="chat" placeholder="Type Hello">
+                    <input type="text" name="chat" id="chat" placeholder="">
                 </div>
                 <div>
                     <input type="submit" value="Send" id="btn">
