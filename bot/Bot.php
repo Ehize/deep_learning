@@ -2,7 +2,7 @@
 class Bot
 {
     private $name = "MicMe";
-    private $place = "Ghana";
+    private $place = "Mars";
 
     public function getName()
     {
