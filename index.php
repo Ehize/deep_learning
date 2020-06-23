@@ -14,7 +14,7 @@
                 <h4>ChatBot</h4>
             </div>
             <div class="body" id="chatbody">
-                <p>Type Hello</p>
+                <p class="alicia visible">Type Hello</p>
                 <div class="scroller"></div>
             </div>
             <form class="chat" method="post" autocomplete="off">
