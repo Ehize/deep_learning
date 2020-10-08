@@ -16,7 +16,7 @@ if (isset($_GET['msg'])) {
         global $msg;
         global $questions;
         if ($msg == 'hi' || $msg == "hello") {
-            $botty->reply('Hello there! you can ask me any of the following questions: <br><br>What is your name? <br><br> Where are you from? <br><br> How old are you?');
+            $botty->reply('Hey there! <br>you can ask me any of the following questions: <br><br>What is your name? <br><br> Where are you from? <br><br> How old are you?');
         } elseif ($botty->ask($msg, $questions) == "") {
             $botty->reply("You have entered the wrong command");
         } else {
